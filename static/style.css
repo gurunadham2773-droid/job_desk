@@ -1,0 +1,169 @@
+/* ===== BODY BACKGROUND ===== */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+
+    /* 🎯 EXACT MATCH GRADIENT */
+    background: linear-gradient(135deg, #667eea, #764ba2);
+
+    min-height: 100vh;
+    color: white;
+}
+
+/* ===== NAVBAR ===== */
+.navbar {
+    background: rgba(0,0,0,0.5);
+    backdrop-filter: blur(10px);
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar h2 {
+    margin: 0;
+}
+
+.navbar a {
+    color: white;
+    margin-left: 15px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.navbar a:hover {
+    color: #00c6ff;
+}
+
+/* ===== CENTER HOME ===== */
+.home-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    text-align: center;
+}
+
+/* TITLE */
+.main-title {
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+/* IMAGE */
+.home-img {
+    width: 160px;
+    margin: 20px 0;
+}
+
+/* SUBTITLE */
+.subtitle {
+    font-size: 18px;
+    margin-bottom: 20px;
+    opacity: 0.9;
+}
+
+/* BUTTONS */
+.home-buttons {
+    display: flex;
+    gap: 15px;
+}
+
+/* BUTTON STYLE */
+.btn-box {
+    border: 2px solid white;
+    padding: 10px 25px;
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-box:hover {
+    background: white;
+    color: #2c5364;
+}
+
+/* ===== FORM CENTER ===== */
+.center-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+/* FORM CARD */
+.form-card {
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(12px);
+    color: white;
+    width: 350px;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+
+/* INPUT */
+input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: none;
+}
+
+/* BUTTON */
+button {
+    width: 100%;
+    background: #00c6ff;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* ===== JOBS ===== */
+.main-container {
+    text-align: center;
+    padding: 20px;
+}
+
+.job-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+
+.job-card {
+    background: white;
+    color: black;
+    width: 260px;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+.job-card:hover {
+    transform: translateY(-10px);
+}
+
+.job-img {
+    width: 70px;
+}
+
+/* APPLY BUTTON */
+.apply-btn {
+    display: inline-block;
+    background: #00c6ff;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 6px;
+    text-decoration: none;
+    margin-top: 10px;
+}

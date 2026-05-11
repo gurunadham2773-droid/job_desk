@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="navbar">
+    <h2>Chance.in</h2>
+
+    <div>
+        <span>{{ user['name'] }} 👤</span>
+        <a href="/jobs">Jobs</a>
+        <a href="/logout">Logout</a>
+    </div>
+</div>
+
+<div class="center-page">
+    <div class="form-card">
+
+        <h2>👤 Profile</h2>
+
+        <h3>{{ user['name'] }}</h3>
+
+        <hr>
+
+        <h3>Applied Jobs</h3>
+
+        {% for app in applications %}
+            <p>✔ {{ app['job'] }}</p>
+        {% else %}
+            <p>No applications yet</p>
+        {% endfor %}
+
+    </div>
+</div>
+
+</body>
+</html>
